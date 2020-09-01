@@ -246,7 +246,7 @@ def pilih_login():
         elif peak =="2":
 	        tokenz()
         elif peak =="3":
-	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
+	        os.system('xdg-open https://play.google.com/store/apps/details?id=com.proit.thaison.getaccesstokenfacebook')
 	        login()
         elif peak =="4":
 	        os.system('xdg-open https://youtu.be/5CHTnjNAiqM')
