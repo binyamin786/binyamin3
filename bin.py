@@ -148,20 +148,20 @@ logo = """
 \033[1;95m█▀▄ ▀ █▄░█ ▀▄░▄▀ ▄▀▄ █▄░▄█ ▀ █▄░█ 
 \033[1;96m█▀█ █ █░▀█ ░░█░░ █▀█ █░█░█ █ █░▀█ 
 \033[1;97m▀▀░ ▀ ▀░░▀ ░░▀░░ ▀░▀ ▀░░░▀ ▀ ▀░░▀ 
-\033[1;98m•-----------------\033[1;37mBLACK_TIGER\033[1;97m-----------------•
+\033[1;98m•-----------------\033[1;37mBinyamin\033[1;97m-----------------•
  \033[1;97m•▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
-\033[1;41m\033[1;37m[⚡⚡\033[1;37mAuthor Name: Black_Tiger ⚡⚡\033[1;37m]\033[1;0m
-\033[1;41m\033[1;37m[⚡⚡\033[1;37m☏ →+923037335114 ⚡⚡\033[1;37m]\033[1;0m
-\033[1;41m\033[1;37m[⚡⚡\033[1;37mYT Channal:Time4 You ⚡⚡\033[1;37m]\033[1;0m
-\033[1;41m\033[1;37m[⚡⚡ \033[1;37mFrom: Pakistan ⚡⚡\033[1;37m]\033[1;0m
+\033[1;41m\033[1;37m[⚡⚡\033[1;37mAuthor Name: Binyamin_jan ⚡⚡\033[1;37m]\033[1;0m
+\033[1;41m\033[1;37m[⚡⚡\033[1;37mtel @binyamin001→+ ⚡⚡\033[1;37m]\033[1;0m
+\033[1;41m\033[1;37m[⚡⚡\033[1;37mYT Channal:binyamin jan ⚡⚡\033[1;37m]\033[1;0m
+\033[1;41m\033[1;37m[⚡⚡ \033[1;37mFrom: Afghanistan ⚡⚡\033[1;37m]\033[1;0m
 \033[1;97m•▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
-\033[1;97m•-----------------\033[1;37mBLACK_TIGER\033[1;97m-----------------•
+\033[1;97m•-----------------\033[1;37mBinyamin_jan\033[1;97m-----------------•
 """
 
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\x1b[1;93mBlackTiger█████████████████▒▒▒▒▒▒▒▒..99% \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(0.1)
+		print("\r\x1b[1;93mBinyamin█████████████████▒▒▒▒▒▒▒▒..99% \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(0.1)
 
 
 back = 0
@@ -188,15 +188,10 @@ print  """
 \033[1;91m───▐██──▀▀──▀▀──██▌───\033[1;97m───▐██──▀▀──▀▀──██▌───
 \033[1;91m──▄████▄──▐▌──▄████▄──\033[1;97m──▄████▄──▐▌──▄████▄──    
 \033[1;97m•───────────────────────────────────────────•                                                                                                                             
-\033[1;91m ____  __     __    ___  __ _    ____  __  ___  ____  ____ 
-\033[1;92m(  _ \(  )   / _\  / __)(  / )  (_  _)(  )/ __)(  __)(  _ \
-\033[1;93m ) _ (/ (_/\/    \( (__  )  (     )(   )(( (_ \ ) _)  )   /
-\033[1;94m(____/\____/\_/\_/ \___)(__\_)   (__) (__)\___/(____)(__\_)
-\033[1;95m ____  ____  ____   __  ____   ___   __    ___             
-\033[1;96m(  __)(  _ \(  _ \ /  \(  _ \ / _ \ /  \  / _ \            
-\033[1;97m ) _)  )   / )   /(  O ))   /(__  ((  0 )(__  (            
-\033[1;91m(____)(__\_)(__\_) \__/(__\_)  (__/ \__/   (__/            
-\033[1;92m•───────────────────────────────────────────•
+\033[1;96m─╔╗╔═╗╔╦╗╔═╗╔═╗     
+\033[1;96m─║║║║║║╔╝║╦╝║╬║     
+\033[1;97m╔╣║║║║║╚╗║╩╗║╗╣     
+\033[1;97m╚═╝╚═╝╚╩╝╚═╝╚╩╝     
  \033[1;97m•▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
  """
 CorrectUsername = "binyamin"
@@ -208,15 +203,15 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;91m[+] \033[1;91m \x1b[1;91mTool Password \x1b[1;91m: \x1b[1;97m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:BlackTiger-Error404
+            print "Logged in successfully as " + username #Dev:Binyamin
 	    time.sleep(2)
             loop = 'false'
         else:
             print "\033[1;97mWrong Password"
-            os.system('xdg-open https://youtu.be/0sW0K1sQkkI')
+            os.system('xdg-open https://www.youtube.com/channel/UCZgglszllvTPgtyiKddsU3w')
     else:
         print "\033[1;97mWrong Username"
-        os.system('xdg-open https://youtu.be/0sW0K1sQkkI')
+        os.system('xdg-open https://www.youtube.com/channel/UCZgglszllvTPgtyiKddsU3w')
 
 ##### LICENSE #####
 #=================#
@@ -235,7 +230,7 @@ def login():
         time.sleep(0.05)
         print "\033[1;94m[4]\033[1;47m\033[1;31mSubscribe YouTube Channel        \033[1;0m"
         time.sleep(0.05)
-	print "\033[1;95m[5]\033[1;47m\033[1;31mJoin Whatsapp group For Help           \033[1;0m"
+	print "\033[1;95m[5]\033[1;47m\033[1;31mmesseage telegram for help           \033[1;0m"
         time.sleep(0.05)
         print "\033[1;96m[0]\033[1;47m\033[1;31mExit                             \033[1;0m"
 	time.sleep(0.05)
@@ -254,10 +249,10 @@ def pilih_login():
 	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
 	        login()
         elif peak =="4":
-	        os.system('xdg-open https://youtu.be/0sW0K1sQkkI')
+	        os.system('xdg-open https://www.youtube.com/channel/UCZgglszllvTPgtyiKddsU3w')
 	        login()
         elif peak =="5":
-	        os.system('xdg-open https://chat.whatsapp.com/DmAdpEsgjhr9Z5zSzwWuj6 ')
+	        os.system('xdg-open https://www.t.me/binyamin001')
                 login()
 	elif peak =="0":
 		keluar()
@@ -314,12 +309,12 @@ def login1():
 				keluar()
 		if 'checkpoint' in url:
 			print("\n\x1b[1;97m∆CP∆ Creat A New Account")
-			os.system('rm -rf login.txt')
+			os.system(' xdg - open https://www.youtube.com/channel/UCZgglszllvTPgtyiKddsU3w')
 			time.sleep(1)
 			keluar()
 		else:
 			print("\n\x1b[1;97mPassword/Email is wrong")
-			os.system('rm -rf login.txt')
+			os.system('xdg - open  https://www.youtube.com/channel/UCZgglszllvTPgtyiKddsU3w')
 			time.sleep(1)
 			login()
 			
@@ -350,7 +345,7 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print"\x1b[1;94mThere is no internet connection"
 		keluar()
-	os.system("clear") #Dev:BlackTiger-Error404
+	os.system("clear") #Dev:Binyamin
 	print logo
 	print "\033[1;37m[!]\033[1;91m Logged in User Information\033[1;92m"
 	time.sleep(0.05)
@@ -358,12 +353,12 @@ def menu():
 	time.sleep(0.05)
 	print "\033[1;37m[•]\033[1;91m ID\033[1;93m:\033[1;91m"+id+"\x1b[1;93m              "
 	time.sleep(0.05)
-	print "\033[1;97m•-----------------\033[1;37mBlack_Tiger\033[1;97m-----------------•"
+	print "\033[1;97m•-----------------\033[1;37mBinyamin_jan\033[1;97m-----------------•"
 	print "\033[1;92m[1]\033[1;47m\033[1;31mStart Hacking                             \033[1;0m"
 	time.sleep(0.05)
 	print "\033[1;93m[2]\033[1;47m\033[1;31mID Not Found Problem Solve                     \033[1;0m"
 	time.sleep(0.05)
-	print "\033[1;94m[3]\033[1;47m\033[1;31mRest/Update Black_Tiger                          \033[1;0m"
+	print "\033[1;94m[3]\033[1;47m\033[1;31mRest/Update Binyamin_jan                          \033[1;0m"
 	time.sleep(0.05)
 	print "\033[1;95m[0]\033[1;47m\033[1;31mExit                                      \033[1;0m"
 	time.sleep(0.05)
@@ -429,7 +424,7 @@ def pilih():
                 jalan('\033[1;96m========80%')
                 jalan('\033[1;95m=========90%')
                 jalan('\033[1;94m==========100%')
-                jalan('\033[1;93mCloning Data Reset and update by Black_Tiger')
+                jalan('\033[1;93mCloning Data Reset and update by Binyamin')
 		os.system('git pull origin master')
 		raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
 	        menu()		
